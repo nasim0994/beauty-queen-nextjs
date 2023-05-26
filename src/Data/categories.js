@@ -144,7 +144,6 @@ export const categories = [
     icon: "https://i.ibb.co/6tLdwrK/book.png",
     link: "/category/Book & Stationery",
   },
-
   {
     title: "Electronics Accessories",
     icon: "https://i.ibb.co/nD3xhKk/electronics-Accessories.png",
