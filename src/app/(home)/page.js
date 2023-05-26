@@ -1,7 +1,9 @@
+import Hero from "@/components/Hero/Hero";
+
 export default function Home() {
   return (
     <main>
-      <p>This is root route</p>
+      <Hero/>
     </main>
   );
 }

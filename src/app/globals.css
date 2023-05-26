@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .active {
   color: #e11e63;
 }
@@ -16,4 +15,32 @@
   .container {
     max-width: 1200px;
   }
+}
+
+/* ---------- Home Hero CSS -------------- */
+.slider img {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .slider {
+    width: calc(100% - 256px);
+  }
+
+  .slider img {
+    height: 322px;
+  }
+}
+
+.categoryDropdown,
+.categorySubDropdown {
+  display: none;
+}
+
+.category li:hover .categoryDropdown {
+  display: block !important;
+}
+.categoryDropdown li:hover .categorySubDropdown {
+  display: block !important;
 }
